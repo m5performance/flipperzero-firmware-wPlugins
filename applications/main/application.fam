@@ -4,18 +4,18 @@ App(
     apptype=FlipperAppType.METAPACKAGE,
     provides=[
         "gpio",
-        # "ibutton",
+        "ibutton",
         "infrared",
         "lfrfid",
         "nfc",
         "subghz",
         "bad_usb",
-        # "u2f",
+        "u2f",
         "fap_loader",
         "archive",
-        # "Clock",
+        "Clock",
         "SubGHz_Remote",
-        # "Spectrum_Analyzer",
+        "Spectrum_Analyzer",
     ],
 )
 
