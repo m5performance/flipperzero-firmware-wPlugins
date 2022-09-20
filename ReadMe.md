@@ -10,13 +10,11 @@
 <b>Latest Updates:</b>
 
 - Known Issues:	 `Chess`, `Tanks` & `Chip8` (No Controls)
-- Fixed issue with Clock showing AM at noon
-- New frequencies added provided by [Unleashed/xMasterX](https://github.com/Eng1n33r/flipperzero-firmware)
-- Added [Metronome (By panki27)](https://github.com/panki27/Metronome)
-- Added [BPM Tapper (By panki27)](https://github.com/panki27/bpm-tapper)
-- Added latest changes to [faploader: more subsystem headers in API table #1742 (By hedger)](https://github.com/flipperdevices/flipperzero-firmware/pull/1742)
-- Latest changes from [Unleashed/xMasterX](https://github.com/Eng1n33r/flipperzero-firmware) in changelog
-- Latest changes from OFW added too
+- Last Synched changes from [Unleashed/xMasterX](https://github.com/Eng1n33r/flipperzero-firmware) in [changelog](https://github.com/RogueMaster/flipperzero-firmware-wPlugins/blob/420/CHANGELOG.md): `2022-09-19 20:45 GMT`
+- To avoid Application errors and duplicates, delete /ext/apps before doing the RM firmware update
+- Archive: FAPs are now launchable from Archive [By RogueMaster], thanks @xMasterX for the suggestion
+- Updated [Metronome (By panki27)](https://github.com/panki27/Metronome)
+- Added [DTMF Dolphin (By litui)](https://github.com/litui/dtmf_dolphin)
 
 <details>
   <summary><B>TO DO</b></summary><br/>
@@ -53,6 +51,7 @@
 </details>
 
       
+- To avoid Application errors, delete /ext/apps before doing the RM firmware update
 - To install new FW, extract the [latest release zip file](https://github.com/RogueMaster/flipperzero-firmware-wPlugins/releases) to a folder, put the folder in the update folder on your SD card, and run the update file inside the folder using the Archive app (down from flipper desktop). If you were previously unleashed, you need to update your extend_range.txt file. **UPDATE IGNORE FLAG TO TRUE TO UNLEASH YOUR FLIPPER!!** On any update, you may need to update this file and your unirf map file, so keep backups. 😄
     - [<h2>GAMES ONLY MODE PASSWORD: UP UP DOWN DOWN LEFT RIGHT LEFT RIGHT IN CLOCK</h2>](https://github.com/RogueMaster/flipperzero-firmware-wPlugins/blob/420/GAMES_ONLY.md)
 <br>[FLIPPER PROJECT WISH LIST](https://github.com/RogueMaster/flipperzero-firmware-wPlugins/blob/420/RoadMap.md) - [SAMPLE EDUCATIONAL PROJECTS 😄](https://github.com/RogueMaster/flipperzero-firmware-wPlugins/blob/420/RoadMap.md)
@@ -90,6 +89,7 @@ $ ./fbt plugin_dist FIRMWARE_APP_SET=ext_apps
 - Animations: Idle animations will show all animations regardless of level and butthurt [Thanks to qqMajiKpp]
 - Animations: RM FW Update image [(Thanks to E_Surge)](https://github.com/RogueMaster/flipperzero-firmware-wPlugins/pull/257)
 - Animations: SubGHZ Scanning image with Pikachu [Thanks to Panzer00Z](https://github.com/Panzer00Z/flipperzero-firmware/blob/3a548ea9bb181c9348d8afb427890c411456134e/assets/icons/SubGhz/Scanning_123x52.png)
+- Archive: FAPs are now launchable from Archive [By RogueMaster], thanks xMasterX for the suggestion
 - Assets: Includes a NFC Level 50 Gan0n Amiibo
 - Assets: Includes a NFC Rick Roll link
 - Assets: Includes New Dolphin Animations: [Rick Roll, Matrix & Swim animations (By qqMajiKpp)], [Rukamon 2x and Agumon animations (By Syrius)], [Mew (By Arkaivos)], [Eye of the Flipper (By Kuronons)], [Shodan (By qqMajiKpp)], [Sirene & The Witch (By Haseo)], [Dino & A New Hope (By Haseo)], [Earth Arcadia (By Kuronons)], [Kuronons Black Flags Collection (21 Animations)(By Kuronons)], [D.Va (By Haseo)], [GITS (By Haseo)], [Slayers (By qqMajiKpp)], [P0liwhirl (By Panzer00Z)], [RogueMaster CFW Animation (By Kuronons)], [Nyan Cat (By Haseo)], [L (By Kuronons)], [Laughing Man (By Kuronons)], [B0ws3r (By Haseo)], [Kuronons Black Flags Collection VOL 2 (9 Animations)(By Kuronons)], [Thanks for all the fish (By qqMajiKpp)], [OCP, Skynet and Weyland (By Kuronons)], [Mario (By Haseo)], [Umbrella (By Haseo)], [Trioptimum (By qqMajiKpp)], [Tyrell & Cyberdyne (By Kuronons)], [Allen & Maha (By Haseo)], [Starfield (By qqMajiKpp)], [DJ (By ut1s)] & [Fireplace (By Friend of xMasterX)]
@@ -203,6 +203,7 @@ $ ./fbt plugin_dist FIRMWARE_APP_SET=ext_apps
 - [DSTIKE Deauther (By SequoiaSan)](https://github.com/SequoiaSan/FlipperZero-Wifi-ESP8266-Deauther-Module/tree/FlipperZero-Module-v2/FlipperZeroModule/FlipperZero-ESP8266-Deauth-App)) `Req: ESP8266`
 - [Dolphin Backup (By nminaylov)](https://github.com/flipperdevices/flipperzero-firmware/pull/1384) Modified by RogueMaster
 - [Dolphin Restorer (By nminaylov)](https://github.com/flipperdevices/flipperzero-firmware/pull/1384) Cloned by RogueMaster
+- [DTMF Dolphin (By litui)](https://github.com/litui/dtmf_dolphin)
 - [Metronome (By panki27)](https://github.com/panki27/Metronome)
 - [Mouse Jacker (By mothball187)](https://github.com/mothball187/flipperzero-nrf24/tree/main/mousejacker) ([Pin Out](https://github.com/RogueMaster/flipperzero-firmware-wPlugins/tree/420/applications/mousejacker) from nocomp/Frog/UberGuidoZ) `Req: NRF24`
 - [Mouse Jiggler (By Jacob-Tate)](https://github.com/Jacob-Tate/flipperzero-firmware/blob/dev/applications/mouse_jiggler/mouse_jiggler.c) (Original By MuddleBox)
