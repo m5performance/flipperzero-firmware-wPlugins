@@ -1,5 +1,9 @@
 ### New changes
-* PR: Allow running apps from Archive app (also allows adding them to Favourites) (PR 72 by RogueMaster) (new icon by @Svaarich)
+* Plugins: Fix RFID Fuzzer crashes
+* SubGHz: Fix Nice Flor S crash
+* SubGHz: Allow saving signals for subghz protocols without encoder (sending is not possible)
+* Some random names added
+* Fix `debug_pack` to allow building debug builds with extra parameter for `./fbt` (check previous releases for info)
 
 #### **DFU files no longer included in releases to avoid issues with wrong manual installation of assets - use .tgz file with qFlipper, or install automatically via web updater or use microSD update package**
 
