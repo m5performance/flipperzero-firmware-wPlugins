@@ -1,9 +1,6 @@
 ### New changes
-* Plugins: Fix RFID Fuzzer crashes
-* SubGHz: Fix Nice Flor S crash
-* SubGHz: Allow saving signals for subghz protocols without encoder (sending is not possible)
-* Some random names added
-* Fix `debug_pack` to allow building debug builds with extra parameter for `./fbt` (check previous releases for info)
+* OFW: Fixed NFC Mifare classic dict attack uses wrong keys (OFW PR 1769)
+* Infrared: removed duplicate function, moved reset to scene exit
 
 #### **DFU files no longer included in releases to avoid issues with wrong manual installation of assets - use .tgz file with qFlipper, or install automatically via web updater or use microSD update package**
 
