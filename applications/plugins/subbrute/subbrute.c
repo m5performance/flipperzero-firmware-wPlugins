@@ -1,7 +1,6 @@
 #include <furi.h>
 #include <furi_hal.h>
 #include <input/input.h>
-#include <m-string.h>
 
 #include <gui/gui.h>
 #include <gui/view_dispatcher.h>
@@ -21,6 +20,7 @@
 #define TAG "SubBruteApp"
 
 static const char* subbrute_menu_names[] = {
+    [SubBruteAttackCAME12bit303] = "CAME 12bit 303MHz",
     [SubBruteAttackCAME12bit307] = "CAME 12bit 307MHz",
     [SubBruteAttackCAME12bit433] = "CAME 12bit 433MHz",
     [SubBruteAttackCAME12bit868] = "CAME 12bit 868MHz",
@@ -36,6 +36,7 @@ static const char* subbrute_menu_names[] = {
 };
 
 static const char* subbrute_menu_names_small[] = {
+    [SubBruteAttackCAME12bit303] = "CAME 303MHz",
     [SubBruteAttackCAME12bit307] = "CAME 307MHz",
     [SubBruteAttackCAME12bit433] = "CAME 433MHz",
     [SubBruteAttackCAME12bit868] = "CAME 868MHz",
