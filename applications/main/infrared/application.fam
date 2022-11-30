@@ -10,10 +10,14 @@ App(
     ],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     # provides=["infrared_start"],
 =======
     provides=["infrared_start"],
 >>>>>>> parent of 4709ad4c0 (Restored Infrared and RFID CLI)
+=======
+    provides=["infrared_start"],
+>>>>>>> parent of 9a3ad87d7 (Merge branch '420' of https://github.com/RogueMaster/flipperzero-firmware-wPlugins into 420)
     # icon="A_Infrared_14",
     stack_size=3 * 1024,
     order=40,
@@ -45,6 +49,14 @@ App(
     # fap_icon="irIcon.png",
     # fap_category="Main",
 >>>>>>> parent of 05e66ad91 (infrared FAP test)
+)
+
+App(
+    appid="infrared_start",
+    apptype=FlipperAppType.STARTUP,
+    entry_point="infrared_on_system_start",
+    requires=["infrared"],
+    order=20,
 )
 
 App(

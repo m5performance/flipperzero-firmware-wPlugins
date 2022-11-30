@@ -9,9 +9,12 @@ App(
         "dialogs",
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
     # provides=[ "lfrfid_start", ],
     icon="A_125khz_14",
 =======
+=======
+>>>>>>> parent of 9a3ad87d7 (Merge branch '420' of https://github.com/RogueMaster/flipperzero-firmware-wPlugins into 420)
     provides=[
         "lfrfid_start",
     ],
