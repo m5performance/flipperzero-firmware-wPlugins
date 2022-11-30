@@ -86,3 +86,11 @@ App(
     requires=["infrared"],
     order=20,
 )
+
+App(
+    appid="infrared_start",
+    apptype=FlipperAppType.STARTUP,
+    entry_point="infrared_on_system_start",
+    requires=["infrared"],
+    order=20,
+)
