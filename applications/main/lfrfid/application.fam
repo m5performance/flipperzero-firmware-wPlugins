@@ -8,8 +8,15 @@ App(
         "gui",
         "dialogs",
     ],
+<<<<<<< HEAD
     # provides=[ "lfrfid_start", ],
     icon="A_125khz_14",
+=======
+    provides=[
+        "lfrfid_start",
+    ],
+    # icon="A_125khz_14",
+>>>>>>> parent of 4709ad4c0 (Restored Infrared and RFID CLI)
     stack_size=2 * 1024,
     order=20,
     # fap_category="Main",

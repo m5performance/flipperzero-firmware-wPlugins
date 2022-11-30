@@ -9,7 +9,11 @@ App(
         "dialogs",
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
     # provides=["infrared_start"],
+=======
+    provides=["infrared_start"],
+>>>>>>> parent of 4709ad4c0 (Restored Infrared and RFID CLI)
     # icon="A_Infrared_14",
     stack_size=3 * 1024,
     order=40,
