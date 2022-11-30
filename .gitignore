@@ -57,3 +57,6 @@ openocd.log
 PVS-Studio.log
 
 .gdbinit
+*.fam
+applications/main/lfrfid/application.fam
+applications/main/infrared/application.fam
