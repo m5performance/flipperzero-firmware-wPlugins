@@ -16,6 +16,7 @@ App(
     # provides=["infrared_start"],
 =======
     provides=["infrared_start"],
+<<<<<<< HEAD
 >>>>>>> parent of 4709ad4c0 (Restored Infrared and RFID CLI)
 =======
     provides=["infrared_start"],
@@ -89,6 +90,13 @@ App(
     entry_point="infrared_on_system_start",
     requires=["infrared"],
     order=20,
+=======
+    icon="A_Infrared_14",
+    stack_size=3 * 1024,
+    order=40,
+    # fap_icon="irIcon.png",
+    # fap_category="Main",
+>>>>>>> parent of 05e66ad91 (infrared FAP test)
 )
 
 App(

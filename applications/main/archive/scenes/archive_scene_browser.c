@@ -80,6 +80,7 @@ static void archive_run_in_app(ArchiveBrowserView* browser, ArchiveFile_t* selec
             // malloc(strlen(tmpType) + strlen(furi_string_get_cstr(selected->path)) + 1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
             // strcpy(result, tmpType);
             // strcat(result, furi_string_get_cstr(selected->path));
             // status = loader_start(loader, "Applications", result);
@@ -88,6 +89,8 @@ static void archive_run_in_app(ArchiveBrowserView* browser, ArchiveFile_t* selec
             char* result =
                 malloc(strlen(tmpType) + strlen(furi_string_get_cstr(selected->path)) + 1);
 
+=======
+>>>>>>> parent of 05e66ad91 (infrared FAP test)
 =======
 >>>>>>> parent of 05e66ad91 (infrared FAP test)
             strcpy(result, tmpType);
