@@ -2,6 +2,7 @@
 
 #include <gui/gui.h>
 #include <gui/view.h>
+#include <infrared_icons.h>
 #include <gui/view_stack.h>
 #include <gui/view_dispatcher.h>
 #include <gui/scene_manager.h>
@@ -32,8 +33,11 @@
 
 #include "rpc/rpc_app.h"
 
+<<<<<<< HEAD
 #include <infrared_icons.h>
 
+=======
+>>>>>>> parent of a974dece5 (assets fix?)
 #define INFRARED_FILE_NAME_SIZE 100
 #define INFRARED_TEXT_STORE_NUM 2
 #define INFRARED_TEXT_STORE_SIZE 128
