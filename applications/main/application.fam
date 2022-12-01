@@ -8,10 +8,16 @@ App(
         "gpio_loader",
         # "ibutton",
         "ibutton_loader",
+<<<<<<< HEAD
         # "infrared",
         "infrared_loader",
         "lfrfid",
         # "lfrfid_loader",
+=======
+        "infrared",
+        # "lfrfid",
+        "lfrfid_loader",
+>>>>>>> parent of f14ec2290 (Update application.fam)
         "nfc",
         "subghz",
         #"bad_usb",
